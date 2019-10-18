@@ -18,6 +18,7 @@ const Bubbles = ({ colors }) => {
     <div className="bubble-wrap">
       <p>bubbles</p>
       <Svg width={400} height={400}>
+  {/* Pack + Circle is from Potion.js */}
         <Pack
           data={{
             children: bubbleData
