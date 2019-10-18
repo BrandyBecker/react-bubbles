@@ -1,6 +1,8 @@
+  
 import React, { useState, useEffect } from "react";
 import { Pack } from "@potion/layout";
 import { Svg, Circle } from "@potion/element";
+
 
 const Bubbles = ({ colors }) => {
   const [bubbleData, setBubbleData] = useState([]);
@@ -16,6 +18,7 @@ const Bubbles = ({ colors }) => {
     <div className="bubble-wrap">
       <p>bubbles</p>
       <Svg width={400} height={400}>
+  {/* Pack + Circle is from Potion.js */}
         <Pack
           data={{
             children: bubbleData
